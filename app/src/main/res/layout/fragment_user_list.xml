@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="@color/colorLightOrange"
+	android:padding="16dp">
+	
+	<androidx.cardview.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		app:cardCornerRadius="@dimen/_20sdp"
+		android:padding="@dimen/_16sdp">
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_margin="@dimen/_16sdp"
+			
+			android:layout_height="match_parent">
+			
+	
+		
+		<TextView
+			android:id="@+id/welcome_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:gravity="center_horizontal"
+			android:text="@string/welcome_screen"
+			style="@style/text_title_submit_btn" />
+		
+		<TextView
+			android:id="@+id/subtitle_text"
+			android:layout_width="wrap_content"
+			android:layout_below="@+id/welcome_text"
+			android:layout_centerHorizontal="true"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_20sdp"
+			android:gravity="center_horizontal"
+			android:text="@string/subtitle_screen"
+			android:textSize="18sp" />
+			
+			<EditText
+				android:id="@+id/edit_text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/subtitle_text"
+				android:layout_marginTop="@dimen/_16sdp"
+				android:hint="Enter text here"
+				android:minHeight="48dp" />
+			
+			<Button
+				android:id="@+id/submit_button"
+				android:layout_width="match_parent"
+				style="@style/text_18_submit_btn"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/edit_text"
+				android:layout_marginTop="@dimen/_26sdp"
+				android:layout_marginBottom="@dimen/_20sdp"
+				android:background="@drawable/question_background"
+				android:text="Submit"
+				/>
+		</RelativeLayout>
+		
+	</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

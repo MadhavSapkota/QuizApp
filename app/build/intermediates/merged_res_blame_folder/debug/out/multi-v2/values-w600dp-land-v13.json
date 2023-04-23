@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.aregyan.github.app-mergeDebugResources-56:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\caches\\transforms-3\\47faf81ada61bdc81d8f1a22d0b8bc7c\\transformed\\material-1.7.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

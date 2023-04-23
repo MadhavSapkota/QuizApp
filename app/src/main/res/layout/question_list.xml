@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+
+	<RelativeLayout
+		android:id="@+id/rlAnswerA"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/question_background">
+		
+		
+		<TextView
+			android:id="@+id/tvAnswerOptionA"
+			style="@style/MyTextViewStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="@dimen/_15sdp"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:text="Hello World!" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/rlAnswerB"
+		android:layout_below="@+id/rlAnswerA"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/card_background">
+		
+		
+		<RadioButton
+			android:id="@+id/tvAnswerOptionB"
+			style="@style/MyTextViewStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:text="Hello World!" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/rlAnswerC"
+		android:layout_width="match_parent"
+		android:layout_below="@+id/rlAnswerB"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/card_background">
+		
+		
+		<RadioButton
+			android:id="@+id/tvAnswerOptionC"
+			style="@style/MyTextViewStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:text="Hello World!" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/rlAnswerD"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/rlAnswerC"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/card_background">
+		
+		
+		<RadioButton
+			android:id="@+id/tvAnswerOptionD"
+			style="@style/MyTextViewStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:text="Hello World!" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/rlAnswerE"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/rlAnswerD"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/card_background">
+		
+		
+		<RadioButton
+			android:id="@+id/tvAnswerOptionE"
+			style="@style/MyTextViewStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:text="Hello World!" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/rlAnswerF"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/rlAnswerE"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/card_background">
+		
+		
+		<RadioButton
+			android:id="@+id/tvAnswerOptionF"
+			style="@style/MyTextViewStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:text="Hello World!" />
+	</RelativeLayout>
+	
+	
+	    <RelativeLayout
+	        android:id="@+id/rlSubmit"
+	        android:layout_below="@+id/rlAnswerF"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginStart="@dimen/_10sdp"
+	        android:layout_marginTop="@dimen/_10sdp"
+	        android:layout_marginEnd="@dimen/_10sdp"
+	        android:layout_marginBottom="@dimen/_10sdp"
+	        android:background="@drawable/submit_background">
+	        
+	        
+	        <TextView
+	            android:id="@+id/tvrlSubmit"
+	            style="@style/SubmitTextViewStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="@dimen/_10sdp"
+	            android:layout_marginBottom="@dimen/_10sdp"
+	            android:text="@string/submit" />
+	    </RelativeLayout>
+
+
+
+</RelativeLayout>

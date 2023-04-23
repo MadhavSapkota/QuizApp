@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-mergeDebugResources-57:\\layout\\fragment_user_list.xml",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-mergeDebugResources-57:\\layout\\fragment_result_layout.xml",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_result_layout.xml"
+    },
+    {
+        "merged": "com.aregyan.github.app-mergeDebugResources-57:/layout/fragment_result_layout.xml",
+        "source": "com.aregyan.github.app-main-60:/layout/fragment_result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-mergeDebugResources-57:\\layout\\fragment_user_details.xml",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-mergeDebugResources-57:\\layout\\question_list.xml",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\question_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-mergeDebugResources-57:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\activity_main.xml"
+    }
+]

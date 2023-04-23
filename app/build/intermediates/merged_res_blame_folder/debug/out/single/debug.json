@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_fragment_user_list.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_fragment_user_details.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_ic_baseline_auto_graph_24.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\ic_baseline_auto_graph_24.xml"
+    },
+    {
+        "merged": "com.aregyan.github.app-merged_res-58:/layout_fragment_result_layout.xml.flat",
+        "source": "com.aregyan.github.app-main-60:/layout/fragment_result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_ic_action_lock.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\ic_action_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-pngs-53:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_submit_background.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\submit_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_ic_baseline_timer_24.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\ic_baseline_timer_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\navigation_main.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\navigation\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_question_background.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\question_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_fragment_result_layout.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_question_list.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\question_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_trophy.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\trophy.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_ic_action_user.png.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]
