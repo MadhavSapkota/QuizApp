@@ -3583,6 +3583,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_dashboard_to_quiz_list
 id action_divider
 id action_image
 id action_menu_divider
@@ -3590,9 +3591,9 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_quiz_screen_to_result
+id action_result_quiz
 id action_text
-id action_user_details_to_result
-id action_users_list_to_user_details
 id actions
 id activity_chooser_view_content
 id add
@@ -4237,9 +4238,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
+layout fragment_dashboard
+layout fragment_quiz_screen
 layout fragment_result_layout
-layout fragment_user_details
-layout fragment_user_list
 layout leak_canary_about_screen
 layout leak_canary_heap_analysis_failure_screen
 layout leak_canary_heap_dump_leak_title

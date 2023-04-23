@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_user_list.xml"
     },
     {
+        "merged": "com.aregyan.github.app-merged_res-58:/navigation_main.xml.flat",
+        "source": "com.aregyan.github.app-main-60:/navigation/main.xml"
+    },
+    {
         "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -40,8 +44,8 @@
         "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\drawable\\ic_baseline_auto_graph_24.xml"
     },
     {
-        "merged": "com.aregyan.github.app-merged_res-58:/layout_fragment_result_layout.xml.flat",
-        "source": "com.aregyan.github.app-main-60:/layout/fragment_result_layout.xml"
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_fragment_quiz_screen.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_quiz_screen.xml"
     },
     {
         "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -82,6 +86,10 @@
     {
         "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\navigation_main.xml.flat",
         "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\navigation\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-main-60:\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\Madhav\\Downloads\\gradle-5.4.1-all\\daemon\\7.4\\com.aregyan.github.app-merged_res-58:\\drawable_question_background.xml.flat",

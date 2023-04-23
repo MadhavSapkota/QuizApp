@@ -155,15 +155,15 @@ MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Madhav\Downlo
 	android:theme
 		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:13:3-34
 	android:name
-		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:7:3-30
-activity#com.aregyan.github.MainActivity
+		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:7:3-42
+activity#com.quiz.app.MainActivity
 ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:14:3-23:14
 	android:exported
 		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:16:4-27
 	android:theme
 		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:17:4-47
 	android:name
-		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:15:4-32
+		ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:15:4-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from F:\Android+Misce\Android-MVVM-Boilerplate-Hilt\app\src\main\AndroidManifest.xml:18:4-22:20
 action#android.intent.action.MAIN
@@ -394,7 +394,7 @@ ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-permission#com.aregyan.github.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.quiz.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
@@ -404,7 +404,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-uses-permission#com.aregyan.github.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.quiz.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\60f8e1146e5f4515a95a9687f476cfe3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
