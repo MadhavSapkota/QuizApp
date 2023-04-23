@@ -1,4 +1,5 @@
 package com.aregyan.github.views.userDetails
+import android.annotation.SuppressLint
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -21,11 +22,14 @@ class UserDetailsViewModel @Inject constructor(
 
     var isFirstLoad = true
 
+    @SuppressLint("SuspiciousIndentation")
     fun getUserDetails() {
         viewModelScope.launch {
             try{
             val userDetails = userDetailsRepository.getUserDetails()
             _questions.value = userDetails
+                userDetailsRepository.saveQuestions(userDetails)
+
         }catch (e: Exception) {
                 _error.value = "Error: ${e.message}"
             }

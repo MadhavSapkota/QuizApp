@@ -2,7 +2,7 @@
 package com.aregyan.github.di;
 
 import android.content.Context;
-import com.aregyan.github.database.UsersDatabase;
+import com.aregyan.github.database.UserDatabase;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
@@ -17,7 +17,7 @@ import javax.inject.Provider;
     "unchecked",
     "rawtypes"
 })
-public final class DatabaseModule_ProvideAppDatabaseFactory implements Factory<UsersDatabase> {
+public final class DatabaseModule_ProvideAppDatabaseFactory implements Factory<UserDatabase> {
   private final Provider<Context> appContextProvider;
 
   public DatabaseModule_ProvideAppDatabaseFactory(Provider<Context> appContextProvider) {
@@ -25,7 +25,7 @@ public final class DatabaseModule_ProvideAppDatabaseFactory implements Factory<U
   }
 
   @Override
-  public UsersDatabase get() {
+  public UserDatabase get() {
     return provideAppDatabase(appContextProvider.get());
   }
 
@@ -34,7 +34,7 @@ public final class DatabaseModule_ProvideAppDatabaseFactory implements Factory<U
     return new DatabaseModule_ProvideAppDatabaseFactory(appContextProvider);
   }
 
-  public static UsersDatabase provideAppDatabase(Context appContext) {
+  public static UserDatabase provideAppDatabase(Context appContext) {
     return Preconditions.checkNotNullFromProvides(DatabaseModule.INSTANCE.provideAppDatabase(appContext));
   }
 }

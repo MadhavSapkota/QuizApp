@@ -7,16 +7,17 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
-import com.aregyan.github.database.UsersDatabase;
+import com.aregyan.github.database.QuestionDao;
+import com.aregyan.github.database.UserDatabase;
 import com.aregyan.github.di.DatabaseModule;
 import com.aregyan.github.di.DatabaseModule_ProvideAppDatabaseFactory;
+import com.aregyan.github.di.DatabaseModule_ProvideChannelDaoFactory;
 import com.aregyan.github.di.NetworkModule;
 import com.aregyan.github.di.NetworkModule_ProvideOkHttpClientFactory;
 import com.aregyan.github.di.NetworkModule_ProvideRetrofitFactory;
 import com.aregyan.github.di.NetworkModule_ProvideUserDetailsServiceFactory;
 import com.aregyan.github.network.UserDetailsService;
 import com.aregyan.github.repository.UserDetailsRepository;
-import com.aregyan.github.repository.UserListRepository;
 import com.aregyan.github.views.results.ResultFragment;
 import com.aregyan.github.views.results.ResultViewModel;
 import com.aregyan.github.views.results.ResultViewModel_HiltModules_KeyModule_ProvideFactory;
@@ -451,11 +452,7 @@ public final class DaggerApplication_HiltComponents_SingletonC {
     }
 
     private UserDetailsRepository userDetailsRepository() {
-      return new UserDetailsRepository(singletonCImpl.provideUserDetailsServiceProvider.get());
-    }
-
-    private UserListRepository userListRepository() {
-      return new UserListRepository(singletonCImpl.provideUserDetailsServiceProvider.get(), singletonCImpl.provideAppDatabaseProvider.get());
+      return new UserDetailsRepository(singletonCImpl.provideUserDetailsServiceProvider.get(), singletonCImpl.questionDao());
     }
 
     @SuppressWarnings("unchecked")
@@ -499,7 +496,7 @@ public final class DaggerApplication_HiltComponents_SingletonC {
           return (T) new UserDetailsViewModel(viewModelCImpl.userDetailsRepository());
 
           case 2: // com.aregyan.github.views.userList.UserListViewModel 
-          return (T) new UserListViewModel(viewModelCImpl.userListRepository());
+          return (T) new UserListViewModel();
 
           default: throw new AssertionError(id);
         }
@@ -586,7 +583,7 @@ public final class DaggerApplication_HiltComponents_SingletonC {
 
     private Provider<UserDetailsService> provideUserDetailsServiceProvider;
 
-    private Provider<UsersDatabase> provideAppDatabaseProvider;
+    private Provider<UserDatabase> provideAppDatabaseProvider;
 
     private SingletonCImpl(ApplicationContextModule applicationContextModuleParam) {
       this.applicationContextModule = applicationContextModuleParam;
@@ -594,12 +591,16 @@ public final class DaggerApplication_HiltComponents_SingletonC {
 
     }
 
+    private QuestionDao questionDao() {
+      return DatabaseModule_ProvideChannelDaoFactory.provideChannelDao(provideAppDatabaseProvider.get());
+    }
+
     @SuppressWarnings("unchecked")
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.provideOkHttpClientProvider = DoubleCheck.provider(new SwitchingProvider<OkHttpClient>(singletonCImpl, 2));
       this.provideRetrofitProvider = DoubleCheck.provider(new SwitchingProvider<Retrofit>(singletonCImpl, 1));
       this.provideUserDetailsServiceProvider = DoubleCheck.provider(new SwitchingProvider<UserDetailsService>(singletonCImpl, 0));
-      this.provideAppDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<UsersDatabase>(singletonCImpl, 3));
+      this.provideAppDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<UserDatabase>(singletonCImpl, 3));
     }
 
     @Override
@@ -644,7 +645,7 @@ public final class DaggerApplication_HiltComponents_SingletonC {
           case 2: // okhttp3.OkHttpClient 
           return (T) NetworkModule_ProvideOkHttpClientFactory.provideOkHttpClient();
 
-          case 3: // com.aregyan.github.database.UsersDatabase 
+          case 3: // com.aregyan.github.database.UserDatabase 
           return (T) DatabaseModule_ProvideAppDatabaseFactory.provideAppDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);
